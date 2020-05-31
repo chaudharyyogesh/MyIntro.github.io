@@ -307,7 +307,6 @@ div.education div.my_edu div.myedu{
 .contactForm
 {
     max-width: 800px;
-    height: 570px;
     margin: 30px auto 0 auto;
     background-color: rgba(248, 186, 51, 0.788);
     display: flex;
@@ -315,9 +314,8 @@ div.education div.my_edu div.myedu{
 .contact{
     padding: 10px;
     background-color: rgb(248, 186, 51);
-    height: 550px;
 }
-.gmailSection{
+.contact div{
     margin-bottom: 10px;
 }
 
@@ -365,6 +363,15 @@ div.education div.my_edu div.myedu{
     cursor: pointer;
 }
 
+
+.alertMessage{
+    display: none;
+    padding: 10px;
+    background-color: rgba(40, 206, 40, 0.753);
+    border-radius: 8px;
+    width: 350px;
+}
+
 footer{
     text-align: center;
     padding: 20px;
@@ -379,6 +386,8 @@ footer p{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
 
 @media only screen and ( max-width: 600px )
 {

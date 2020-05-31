@@ -6,7 +6,6 @@
     <title>Yogesh Chaudhary, a learner,a student, a developer, a designer-About</title>
     <link rel="icon" type="img/svg/png" href="img/boy.png">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -160,17 +159,21 @@
                     
                 </div>
            </div>
-           <div class="theForm">
-               <h2>Say Something, I am always listening.</h2>
-               <form action="" method="get">
+           <div class="theForm" >
+               <h2 class="formHeading">Say Something, I am always listening.</h2>
+               <div class="alertMessage">
+                   <p>Message Sent Successfully!</p>
+
+               </div>
+               <form id="contactForm">
                    <p>Name</p>
-                   <input type="text" placeholder="Fullname" required>
+                   <input type="text" id="name" placeholder="Fullname" required>
                    <p>Email</p>
-                   <input type="email" placeholder="Your Email" required>
+                   <input type="email" id="email" placeholder="Your Email" required>
                    <p>Message</p>
-                   <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                   <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message" required></textarea>
                    <br>
-                   <input type="submit" value="SUBMIT" class="submitButton">
+                   <input type="submit" id="submit" value="SUBMIT" class="submitButton">
                </form>
            </div>
        </div>
@@ -180,6 +183,10 @@
       
 
     </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+    <script src="js/script.js"></script>
     
 </body>
 </html>
