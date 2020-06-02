@@ -434,6 +434,12 @@ footer p{
     .mydes h3{
         font-size: 20px;
     }
+    .theForm input, textarea{
+        width: 290px;
+    }
+    div.education div.my_edu div.myedu{
+        height: 220px;
+    }
 }
 
 
