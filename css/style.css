@@ -37,7 +37,7 @@ div.intro{
 }
 
 .cloud img{
-    width: 300px;
+    width: 250px;
     height: 200px;
     opacity: 0.8;
 }
@@ -423,7 +423,7 @@ footer p{
     height: fit-content;
 }
 }
-@media only screen and ( max-width: 400px )
+@media only screen and ( max-width: 450px )
 {
     .topnav li a{
         font-size: 15px;
