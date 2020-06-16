@@ -34,7 +34,8 @@ div.container{
 div.intro{
     height: 90%;
     background-color: rgb(221, 247, 250);
-    border-bottom:solid rgb(248, 123, 51) ;
+    border-bottom:dotted rgb(248, 123, 51) ;
+    border-width: 1px;
     padding: 20px;
 
 }
