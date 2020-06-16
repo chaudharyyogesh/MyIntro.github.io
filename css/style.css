@@ -1,11 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body,html{
         margin: 0;
-    overflow-x: hidden;
-    position: fixed;
+        overflow-x: hidden;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
+    
 }
 .breaker{
     margin: 0 auto;
@@ -45,8 +49,7 @@ div.intro{
     position: absolute;
     top: 13%;
     z-index: 950;
-    animation:cloudmove1 infinite 20s;
-    animation-timing-function: linear;
+    animation:cloudmove1 infinite 20s linear;
 }
 .cloudimage2{
     position: absolute;
@@ -60,7 +63,7 @@ div.intro{
             left: 100%;
         }
         to{
-            left: -300px;
+            left: -250px;
         }
     }
 @keyframes cloudmove2{
@@ -68,7 +71,7 @@ div.intro{
             left: 20%;
         }
         30%{
-            left: -300px;
+            left: -250px;
         }
         30.00000001%{
             left: 100%;
