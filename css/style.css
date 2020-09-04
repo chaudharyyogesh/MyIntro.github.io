@@ -148,7 +148,7 @@ div.intro{
 
 .mylogo{
     position: relative;
-    left: 100px;
+    margin-left: 100px;
     z-index: 1500;
     top: 0;
     padding: 2%;

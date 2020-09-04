@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.landing
+{
+    background-color: rgb(236, 233, 41);
+    min-height: 500px;
+    max-height: 500px;
+}
+h1.centerheading{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 45px;
+}
+.mylogo{
+    position: relative;
+    margin-left: 100px;
+    z-index: 1500;
+    top: 0;
+    padding: 2%;
+}
+.mylogo a img{
+    background-color: rgb(255, 143, 79);
+    width: 6%;
+    height:6%;
+    border: solid rgb(255, 94, 0);
+    border-width: 0.7px;
+    padding: 1%;
+    border-radius: 50%;
+}
+.mylogo a img:hover{
+    border: solid white;
+    border-width: 0.7px;
+}
+.header{
+    position: absolute;
+    z-index: 1500;
+    right: 100px;
+    top: 0;
+    padding: 2%;
+}
+.topnav{
+    list-style: none;
+    padding: 0;
+}
+.topnav li{
+    float: left;
+    padding: 20px;
+}
+.topnav li a{
+    font-size: 28px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    color: rgb(248, 123, 51);
+}
+.topnav li a.active{
+    color: cornflowerblue;
+}
+.topnav li a:hover{
+    color: cornflowerblue;
+}
+.worklist{
+    margin-top: 130px;
+}
+
+.list{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    border-bottom: solid rgba(122, 117, 117, 0.2);
+    border-block-width: 1px;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.dribblebutton{
+    margin-top: 5px;
+    padding: 20px 40px;
+
+    border: none;
+    background-color: hotpink;
+    border-radius: 2px;
+    cursor: pointer;
+}
